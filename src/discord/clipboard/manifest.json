@@ -1,0 +1,7 @@
+{
+    "name": "Discord Emojis Clipboard",
+    "short_name": "Emojis Clipboard",
+    "lang": "en-US",
+    "start_url": "/index.html",
+    "display": "standalone"
+  }

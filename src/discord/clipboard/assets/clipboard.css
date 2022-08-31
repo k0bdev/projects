@@ -1,0 +1,109 @@
+@font-face
+{
+	src:url(whitneylight.otf);
+	font-family:'discord';
+	font-style:normal;
+	font-display:swap
+}
+
+@font-face
+{
+	src:url(whitney-blacksc.otf);
+	font-family:'discord-bold';
+	font-style:normal;
+	font-display:swap
+}
+
+*
+{
+	font-family:'discord'
+}
+
+.title
+{
+	user-select:none;
+	font-family:'discord-bold';
+	font-size:3.5em;
+	color:#fff;
+	text-shadow:0 0 10px #000;
+	text-align:center;
+	margin-bottom:0;
+	line-height:2;
+	letter-spacing:.1em;
+	text-transform:uppercase
+}
+
+body
+{
+	background-color:#5865f2;
+	background-image:url(background.png);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center
+}
+
+div.window1
+{
+	background-color:#36393f;
+	width:80vw;
+	margin-inline:10vw;
+	bottom:5px;
+	border-radius:10px;
+	color:#fff;
+	font-size:12px
+}
+
+
+#footer
+{
+	padding:20px 0;
+	top:10%;
+	width:100%;
+	text-align:center;
+	position:relative;
+	color:#fff;
+	height:30px
+}
+
+.dc-button {
+	width: 20%;
+	position: relative;
+	transition: background-color .17s ease,color .17s ease;
+	left: 40%;
+	height: 40px;
+	border-radius: 3px;
+	border: none;
+	background-color: hsl(217,7.6%,33.5%);
+	color: white;
+	font: 400 13.3333px Arial;
+}
+
+.dc-button:active {
+	background-color: hsl(218,4.6%,46.9%);
+}
+
+.dc-button:hover {
+	background-color: hsl(213,5%,42.9%);
+}
+
+.loading {
+	font-size: 50px;
+	margin-inline: calc(50% - .5em);
+	margin-top: 20px;
+	position: relative;
+}
+
+.emoji {
+	height: 50px;
+}
+
+#emojis {
+	margin-inline: 5%;
+}
+
+.emoji-delete {
+	color: red;
+	cursor: pointer;
+	margin: 0;
+	position: absolute;
+}

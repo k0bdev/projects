@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>dgl's discord emojis clipboard</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/clipboard.css" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="og:title" content="Discord Emojis Clipboard">
+        <meta name="theme-color" content="#8000ff">
+        <meta name="og:description"
+            content="Simple tool that allows you save emojis from many discord servers! Everything locally">
+        <meta name="og:image" content="https://avatars.githubusercontent.com/u/47297843">
+        <meta name="og:url" content="https://dgl007.github.io/projects/discord/clipboard">
+        <meta name="og:type" content="website">
+        <meta name="og:site_name" content="dgl's projects">
+        <meta name="keywords"
+            content="discord,discord emojis,discord emojis clipboard,discord clipboard,discord clipboard emojis" />
+        <meta name="author" content="dgl" />
+    </head>
+    <body>
+        <div class="window1">
+            <p class="title">Discord Emojis Clipboard</p>
+            <button id="addemoji" class="dc-button">Add new Emoji</button>
+            <br><br>
+            <div id="emojis">
+                <i class="loading fa fa-circle-o-notch fa-spin"></i>
+            </div>
+            <template id="emojitemplate">
+                <i class="fa fa-times emoji-delete"></i>
+                <img src="{{url}}" alt="{{name}}" title="{{name}}" class="emoji" />
+            </template>
+            <div id="footer">
+                <p id="affiliation">This tool is NOT affiliated with Discord in any way!</p>
+            </div>
+        </div>
+        <script src="assets/clipboard.js" type="text/javascript"></script>
+    </body>
+</html>
